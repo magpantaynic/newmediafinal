@@ -1,0 +1,91 @@
+/* First Heading */
+h1 {	
+	text-align: center;
+	font-family: "Papyrus", fantasy;
+	color: 3140F20;
+	font-size: 40px;
+}
+
+h2 {
+
+	text-align: center;
+  	font-family: "Garamond", serif;
+	color: white;
+	font-size : 20px;
+}
+
+
+/* First Paragraph */
+p {
+	text-align: center;
+  	font-family: "Times New Roman", Times, serif;
+	color: white;
+	font-size : 25px;
+}
+
+h3 {
+
+	text-align: center;
+  	font-family: "Lucida Handwriting", cursive;
+	color: pink;
+	font-size : 25px;
+}
+
+/* Background color is pink-blue */
+body {
+  background-image: url('PinkBlueGradient.jpg'); 
+}
+
+img {
+
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+<style>
+/* Navigation Bar Style */
+	a:link, a:visited {
+	background-color: #f44336 /*#FF0000; */
+	color: black;
+  	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	}
+	
+	a:hover, a:active {
+  	background-color: purple;
+	}
+
+</style> 
+
+/* Navigation bar */ 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+	display: inline-block;
+    list-style-type: none;
+}
+
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+
